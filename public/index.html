@@ -2,6 +2,7 @@
 <html lang="tr">
 
 <head>
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -262,11 +263,11 @@
     APP SCREENSHOTS 
     =============================================== -->
 
-    <section id="screenshots">
+    <!-- <section id="screenshots">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-sm-offset-2 col-md-offset-3 text-center title-container">
-                    <!-- /// Title /// -->
+                   
                     <h2 class="section-title">Uygulamızın Ekran Görüntüleri:</h2>
                 </div>
             </div>
@@ -283,7 +284,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- ==============================================
     VIDEO POP UP 
@@ -295,12 +296,12 @@
                 <div class="col-xs-12 col-sm-8 col-sm-offset-2 video-box">
                     <img src="imgs/dilyaz.png" class="img-fluid wow rotateIn" data-wow-duration=".5s" data-wow-delay=".2s" alt="popup">
                     <div class="play-button">
-                        <a class="bla-2 wow flipInY" data-wow-duration=".5s" data-wow-delay=".4s" href="https://youtu.be/Sojppw3nGfw"><i class="material-icons">play_arrow</i></a>
-                        <div class="waves-block">
+                        <!-- <a class="bla-2 wow flipInY" data-wow-duration=".5s" data-wow-delay=".4s" href="https://youtu.be/Sojppw3nGfw"><i class="material-icons">play_arrow</i></a> -->
+                        <!-- <div class="waves-block">
                             <div class="waves wave-1"></div>
                             <div class="waves wave-2"></div>
                             <div class="waves wave-3"></div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -417,28 +418,27 @@
 
             <!-- /// CONTACT FORMS /// -->
 
-            <form class="text-center">
-                <div class="form-row">
-                    <div class="form-group col-xs-12 col-sm-4">
-                        <label>İsim:</label>
-                        <input type="text" class="form-control" id="inputName4">
+            <form class="text-center contact_form">
+                <div class="form-col">
+                    <div class="form-group  col-md-6 offset-md-3">
+                        <label>İsim</label>
+                        <input  type="text" class="form-control name" id="inputName4">
                     </div>
-                    <div class="form-group col-xs-12 col-sm-4">
-                        <label for="inputPassword4">Email:</label>
-                        <input type="email" class="form-control" id="inputPassword4">
+                    <div class="form-group  col-md-6 offset-md-3">
+                        <label for="inputPassword4">Email</label>
+                        <input  type="email" class="form-control email" id="inputPassword4">
                     </div>
-                    <div class="form-group col-xs-12 col-sm-4">
-                        <label>Telefon:</label>
-                        <input type="text" class="form-control" id="inputPhone">
-                    </div>
+                   
                 </div>
                 
-                <button type="submit" class="btn btn-primary">Gönder</button>
+                <button type="submit" class="btn btn-primary submit">Gönder</button>
             </form>
             <p>&copy;Dilyaz Tüm Hakları Saklıdır. Bu site <a href="https://www.linkedin.com/in/berkkaratas/" target="_blank" style="color: blanchedalmond;">Berk Karataş</a> tarafınfan yapılmıştır.</p>
         </div>
     </section>
 
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Popper.js -->
@@ -457,6 +457,7 @@
     <script src="js/plugins/jquery.easing.min.js"></script>
     <!-- Main JS -->
     <script src="js/main.js"></script>
+    <script src="js/send_email.js"></script>
 
 </body>
 
